@@ -84,7 +84,8 @@ int main() {
         }
         /* deliberate continuation */
       case READ_INPUT_TRUNCATED:
-        printf("!\n");
+        fputs("!\n", stdout);
+        fflush(stdout);
         break;
       case READ_INPUT_EOF:
         exit(0);
