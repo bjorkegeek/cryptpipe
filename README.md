@@ -8,6 +8,4 @@ Pseudocode:
 4. Write the result to stdout or a single line containing only "!" on error
 5. Goto 1
 
-The process should terminate cleanly upon EOF on stdin
-
-
+The process should terminate cleanly upon EOF on stdin.

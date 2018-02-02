@@ -15,9 +15,11 @@ struct input {
   enum read_input_result result;
 };
 
+
+
 static void read_input(char* buf,
-                        int bufsize,
-                        struct input *ret)
+                       int bufsize,
+                       struct input *ret)
 {
   size_t readlen;
   int c;
@@ -77,6 +79,7 @@ int main() {
         if (cryptret) {
           fputs(cryptret, stdout);
           fputc('\n', stdout);
+          fflush(stdout);
           break;
         }
         /* deliberate continuation */
