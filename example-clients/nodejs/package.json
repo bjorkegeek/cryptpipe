@@ -1,0 +1,14 @@
+{
+  "name": "cryptpipe_example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Björkevik",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "promise": "^8.0.1"
+  }
+}
