@@ -2,7 +2,7 @@ CFLAGS=-O3 -Wall
 LIBS=-lcrypt
 
 cryptpipe: cryptpipe.c
-	$(CC) $(CFLAGS) $(LIBS) -o $@ $<
+	$(CC) $(CFLAGS) -o $@ $< $(LIBS)
 
 clean:
 	@rm -rf cryptpipe
